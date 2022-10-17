@@ -40,12 +40,10 @@ public class WorkerResource {
 		 * int x =1; if(x==1) throw new RuntimeException("Teste");
 		 */
 			
-		try {
-			Thread.sleep(3000L);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		/*
+		 * try { Thread.sleep(3000L); } catch (InterruptedException e) { // TODO
+		 * Auto-generated catch block e.printStackTrace(); }
+		 */
 		
 		logger.info("PORT = " + env.getProperty("local.server.port"));
 
